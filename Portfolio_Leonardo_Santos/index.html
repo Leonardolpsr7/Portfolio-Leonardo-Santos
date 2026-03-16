@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Leonardo Santos - Desenvolvedor Full Stack">
+    <title>Leonardo Santos - Desenvolvedor Full Stack</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">&lt;LS /&gt;</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Olá, eu sou</p>
+                    <h1 class="hero-title">Leonardo Santos</h1>
+                    <div class="typing-container">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Desenvolvedor apaixonado por criar experiências digitais excepcionais.
+                        Transformo ideias em código limpo e funcional.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> Ver Projetos
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Contato
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-body">
+                            <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">'Leonardo Santos'</span>,
+  <span class="code-property">role</span>: <span class="code-string">'Full Stack Developer'</span>,
+  <span class="code-property">skills</span>: [<span class="code-string">'JavaScript'</span>, <span class="code-string">'React'</span>, <span class="code-string">'Node.js'</span>],
+  <span class="code-property">passion</span>: <span class="code-string">'Criar soluções incríveis'</span>
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;sobre&gt;</span>
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Conheça um pouco mais sobre minha trajetória</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-border"></div>
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Desenvolvedor Full Stack com paixão por tecnologia</h3>
+                    <p>
+                        Sou um desenvolvedor apaixonado por criar soluções digitais que fazem a diferença. 
+                        Com experiência em desenvolvimento front-end e back-end, busco sempre as melhores 
+                        práticas e tecnologias mais modernas para entregar projetos de alta qualidade.
+                    </p>
+                    <p>
+                        Minha jornada na programação começou há alguns anos, e desde então tenho me dedicado 
+                        a aprender continuamente e aprimorar minhas habilidades. Acredito que código limpo 
+                        e bem documentado é fundamental para o sucesso de qualquer projeto.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Projetos Completos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="30">0</div>
+                            <div class="stat-label">Clientes Satisfeitos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="section-tag closing">&lt;/sobre&gt;</span>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;habilidades&gt;</span>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-laptop-code"></i> Front-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML5</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS3</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <h4>React</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Back-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-node-js"></i>
+                            <h4>Node.js</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <h4>MongoDB</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Ferramentas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <h4>Git</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-docker"></i>
+                            <h4>Docker</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-figma"></i>
+                            <h4>Figma</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-aws"></i>
+                            <h4>AWS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="section-tag closing">&lt;/habilidades&gt;</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projetos&gt;</span>
+                <h2 class="section-title">Meus Projetos</h2>
+                <p class="section-subtitle">Alguns dos trabalhos que desenvolvi</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Plataforma completa de e-commerce com carrinho, pagamentos e painel administrativo.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Aplicativo de gerenciamento de tarefas com drag-and-drop e colaboração em tempo real.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Dashboard analítico para redes sociais com gráficos interativos e métricas em tempo real.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API REST</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Forecast App</h3>
+                        <p>Aplicativo de previsão do tempo com geolocalização e visualização de dados meteorológicos.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Blog Platform</h3>
+                        <p>Sistema de blog com editor markdown, comentários e sistema de autenticação completo.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Auth0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Generator</h3>
+                        <p>Ferramenta para criar portfólios personalizados com templates e exportação de código.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Sass</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="section-tag closing">&lt;/projetos&gt;</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contato&gt;</span>
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Vamos trabalhar juntos?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou sempre aberto a novos projetos e oportunidades. Se você tem uma ideia ou apenas quer dizer olá, não hesite em me contatar.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>leonardo.santos@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+55 (11) 99999-9999</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>São Paulo, Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <span class="section-tag closing">&lt;/contato&gt;</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Leonardo Santos. Desenvolvido com <i class="fas fa-heart"></i> e muito <i class="fas fa-coffee"></i></p>
+            <p class="footer-code">&lt;/html&gt;</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
